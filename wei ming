@@ -1,0 +1,4 @@
+x = input("I am faster than Jordan at cross country")
+
+y = x.split( )
+print(y)
