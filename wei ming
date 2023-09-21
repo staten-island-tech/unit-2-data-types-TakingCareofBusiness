@@ -1,4 +1,9 @@
-x = input("I am faster than Jordan at cross country")
+x = input("Type sentence here")
 
 y = x.split( )
-print(y)
+
+z = 0
+for i in (y):
+    z += 1
+print(z)
+   
