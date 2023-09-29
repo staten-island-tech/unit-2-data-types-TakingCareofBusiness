@@ -1,0 +1,10 @@
+bill  = float(input("Input cost here"))
+percent = int(input("Input tip percent here "))
+z = 1
+a = 2
+def tipcost():
+    z = float(bill * percent)
+    
+    print (z)
+tipcost()
+
