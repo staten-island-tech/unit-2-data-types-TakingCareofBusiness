@@ -1,10 +1,20 @@
 bill = float(input("Input cost here"))
-percent = int(input("Input tip percent here "))
+tip = (input("Input if service was bad, okay, good or great here"))
 z = 1
 a = 2
 def tipcost():
+    if tip == ("bad"):
+        tip = 0
+    if tip == ("okay"):
+        tip = 15
+    if tip == ("good"):
+        tip = 20
+    if tip == ("great"):
+        tip = 25
+    else:
+        print("invalid message")
     z = float(bill * 0.01)
-    a = float(z * percent)
+    a = int(z * tip)
     print (a)
 tipcost()
 
