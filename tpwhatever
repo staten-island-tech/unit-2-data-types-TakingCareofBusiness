@@ -1,0 +1,12 @@
+tip = ("good")
+def tip1():
+    if tip == "good":
+        print("20")
+    elif tip == "great":
+        print("25")
+    if tip == "bad":
+        print(0)
+    elif tip == "okay":
+        print(15)
+tip1()
+

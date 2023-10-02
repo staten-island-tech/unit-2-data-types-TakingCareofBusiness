@@ -8,6 +8,5 @@ abc = float(j * 20)
 def stink():
     if tip == ("bad"):
      tip == 0
-   
     print(int(tip))
 stink()
