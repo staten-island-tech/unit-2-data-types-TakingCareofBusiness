@@ -1,12 +1,26 @@
 bill = float(input("Input cost here"))
 tip = (input("Input if service was bad, okay, good or great here"))
+[0,15,20,25]
 z = 1
 a = 2
 b = 3
-j = float(bill * 0.01)
-abc = float(j * 20)
-def stink():
-    if tip == ("bad"):
-     tip == 0
-    print(int(tip))
-stink()
+if tip == "bad":tip = 0
+elif tip == "okay":tip = 15
+if tip == "good":tip = 20
+elif tip == "great":tip = 25
+def totalcost():
+    z = float(bill * 0.01)
+    a = float(z * tip)
+    b = float(bill + a)
+    print(b)
+totalcost()
+if tip == "bad":tip = 0
+elif tip == "okay":tip = 15
+if tip == "good":tip = 20
+elif tip == "great":tip = 25
+def totalcost():
+    z = float(bill * 0.01)
+    a = float(z * tip)
+    b = float(bill + a)
+    print(b)
+totalcost()
