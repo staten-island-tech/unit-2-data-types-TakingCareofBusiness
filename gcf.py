@@ -34,8 +34,8 @@ def factor3(b,d):
         d += 1
 factor3(1,1)
 maximum = 1
-x = 0
-def factor4(b,d):
+
+def factor4(b,d,x):
     for i in range(number1):
         a = number1 % b
         if a == 0:
@@ -46,11 +46,11 @@ def factor4(b,d):
         if c == 0:
             list2.append(d)
         d += 1
-    maximum = list1.max +list2.max
+    maximum = (max(list1)) +(max(list2))
     for i in range(maximum):
         if (list1[x]) == (list2[x]):
             print((list1[x]))
     x += 1
-factor4(1,1)
+factor4(1,1,0)
     
     
