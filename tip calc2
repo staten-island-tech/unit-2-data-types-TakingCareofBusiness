@@ -14,3 +14,13 @@ def totalcost():
     b = float(bill + a)
     print(b)
 totalcost()
+if tip == "bad":tip = 0
+elif tip == "okay":tip = 15
+if tip == "good":tip = 20
+elif tip == "great":tip = 25
+def totalcost():
+    z = float(bill * 0.01)
+    a = float(z * tip)
+    b = float(bill + a)
+    print(b)
+totalcost()
