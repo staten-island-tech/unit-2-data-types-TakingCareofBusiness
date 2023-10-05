@@ -49,8 +49,10 @@ def factor4(b,d,x):
     maximum = (max(list1)) +(max(list2))
     for i in range(maximum):
         if (list1[x]) == (list2[x]):
-            print((list1[x]))
-    x += 1
+            print((list1[x])) 
+        
+        
+        x += 1
 factor4(1,1,0)
     
     
