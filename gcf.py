@@ -45,6 +45,6 @@ factor4(1,1)
                     g += 1
         x += 1
     print(list3)
-factor4(1,1,0)
+factor4(1,1,-1)
     
     
