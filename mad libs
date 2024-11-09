@@ -9,3 +9,4 @@ adjective1 = input("Type adjective ending in ly here")
 vehicle1 = input("Type vehicle here")
 time = input("Type time here")
 print("",(celebrityguest),"was",(verb2),"to",(place1),"at",(time),"in order to pick up a",(object1),"when they realized they left his",(object2),"at home. He",(adjective1),"reached for his phone and called",(person1),"and told him to quickly get his",(object2),"ASAP.",(person1)," quickly hopped into his",(vehicle1),"and delivered the",(object2),"to",(celebrityguest),"and they all lived happily ever after.")
+
